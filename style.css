@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+main{
+  padding: 2vw 4vw;
+}
+
+.page-1{
+  width: 100%;
+  height: 100vh;
+  /* background-color: aquamarine; */
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links h5{
+  cursor: pointer;
+}
+
+.hero{
+  width: 100%;
+  height: 90%;
+  padding-top: 8vw;
+  /* background-color:burlywood; */
+}
+
+.hero h1{
+  font-size: 6vw;
+  letter-spacing: -7px;
+}
+
+.page-2{
+  width: 100%;
+  height: 90vh;
+}
+
+.page-2-content{
+  width: 100%;
+  height: 88%;
+  margin-top: 2vw;  
+  display: flex;
+  justify-content: space-between;
+}
+
+.box{
+  width: 45%;
+  height: 100%;
+}
+
+.image-container{
+  width: 100%;
+  height: 85%;
+  border-radius: 20px;
+}
+
+.image-1{
+  background-image: url("https://images.pexels.com/photos/11643390/pexels-photo-11643390.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.image-2{
+  background-image: url("https://images.pexels.com/photos/18069239/pexels-photo-18069239/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-represents-how-ai-powered-tools-can-support-us-and-save-time-it-was-created-by-martina-stiftinger-as-part-of-the-visua.png");
+  background-size: cover;
+  background-position: 60% 20%;
+}
+
+.box-content{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.des h5{
+  color: #252525ab;
+}
+
+.box-content i{
+  padding: 12px 25px;
+  border: 1px solid black;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.box-content i:hover{
+  background-color: black;
+  color: white
+}
